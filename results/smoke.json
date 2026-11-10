@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "model": "deepseek-chat",
+    "consolidate_after": 5,
+    "n_episodes": 3,
+    "amem_accuracy": 0.6666666666666666,
+    "amem_by_level": {
+      "easy": 0.6666666666666666
+    },
+    "naive_accuracy": 0.6666666666666666,
+    "naive_by_level": {
+      "easy": 0.6666666666666666
+    },
+    "amem_avg_time": 0.65,
+    "naive_avg_time": 0.8566666666666668
+  },
+  "results": [
+    {
+      "eid": "e000",
+      "level": "easy",
+      "question": "What is David's favorite programming language?",
+      "gold": "Rust",
+      "amem_pred": "Rust",
+      "amem_correct": true,
+      "amem_time_s": 0.83,
+      "naive_pred": "Rust.",
+      "naive_correct": true,
+      "naive_time_s": 0.63,
+      "nodes_stored": 2
+    },
+    {
+      "eid": "e001",
+      "level": "easy",
+      "question": "What is Rose's favorite programming language?",
+      "gold": "Rust",
+      "amem_pred": "Rust",
+      "amem_correct": true,
+      "amem_time_s": 0.74,
+      "naive_pred": "Rust.",
+      "naive_correct": true,
+      "naive_time_s": 0.9,
+      "nodes_stored": 2
+    },
+    {
+      "eid": "e002",
+      "level": "easy",
+      "question": "What is Grace's favorite programming language?",
+      "gold": "C++",
+      "amem_pred": "C++",
+      "amem_correct": false,
+      "amem_time_s": 0.38,
+      "naive_pred": "C++",
+      "naive_correct": false,
+      "naive_time_s": 1.04,
+      "nodes_stored": 2
+    }
+  ]
+}
